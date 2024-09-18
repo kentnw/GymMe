@@ -1,2 +1,1 @@
-"# GymME" 
 GymMe is a web-based online health and supplement selling application. It is a perfect place for health and fitness enthusiast to buy supplement and for the admin of the store to sell their product. The CEO of GymMe wants to hire your team to build this application. Before working there, you are given an assignment to make a simple version of this application. 
