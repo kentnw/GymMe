@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LocalDatabaseModelStoreContainer" CdmEntityContainer="LocalDatabaseEntities">
+    <EntitySetMapping Name="MsCarts">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.MsCart">
+        <MappingFragment StoreEntitySet="MsCart">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SupplementID" ColumnName="SupplementID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsSupplements">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.MsSupplement">
+        <MappingFragment StoreEntitySet="MsSupplement">
+          <ScalarProperty Name="SupplementTypeID" ColumnName="SupplementTypeID" />
+          <ScalarProperty Name="SupplementPrice" ColumnName="SupplementPrice" />
+          <ScalarProperty Name="SupplementExpiryDate" ColumnName="SupplementExpiryDate" />
+          <ScalarProperty Name="SupplementName" ColumnName="SupplementName" />
+          <ScalarProperty Name="SupplementID" ColumnName="SupplementID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsSupplementTypes">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.MsSupplementType">
+        <MappingFragment StoreEntitySet="MsSupplementType">
+          <ScalarProperty Name="SupplementTypeName" ColumnName="SupplementTypeName" />
+          <ScalarProperty Name="SupplementTypeID" ColumnName="SupplementTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsUsers">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.MsUser">
+        <MappingFragment StoreEntitySet="MsUser">
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="UserGender" ColumnName="UserGender" />
+          <ScalarProperty Name="UserDOB" ColumnName="UserDOB" />
+          <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionDetails">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.TransactionDetail">
+        <MappingFragment StoreEntitySet="TransactionDetail">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SupplementID" ColumnName="SupplementID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionHeaders">
+      <EntityTypeMapping TypeName="LocalDatabaseModel.TransactionHeader">
+        <MappingFragment StoreEntitySet="TransactionHeader">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LocalDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LocalDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MsCarts" EntityType="LocalDatabaseModel.MsCart" />
+    <EntitySet Name="MsSupplements" EntityType="LocalDatabaseModel.MsSupplement" />
+    <EntitySet Name="MsSupplementTypes" EntityType="LocalDatabaseModel.MsSupplementType" />
+    <EntitySet Name="MsUsers" EntityType="LocalDatabaseModel.MsUser" />
+    <EntitySet Name="TransactionDetails" EntityType="LocalDatabaseModel.TransactionDetail" />
+    <EntitySet Name="TransactionHeaders" EntityType="LocalDatabaseModel.TransactionHeader" />
+    <AssociationSet Name="FK_SupplementIDMsCart" Association="LocalDatabaseModel.FK_SupplementIDMsCart">
+      <End Role="MsSupplement" EntitySet="MsSupplements" />
+      <End Role="MsCart" EntitySet="MsCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserIDMsCart" Association="LocalDatabaseModel.FK_UserIDMsCart">
+      <End Role="MsUser" EntitySet="MsUsers" />
+      <End Role="MsCart" EntitySet="MsCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SupplementID" Association="LocalDatabaseModel.FK_SupplementID">
+      <End Role="MsSupplement" EntitySet="MsSupplements" />
+      <End Role="TransactionDetail" EntitySet="TransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SupplementTypeID" Association="LocalDatabaseModel.FK_SupplementTypeID">
+      <End Role="MsSupplementType" EntitySet="MsSupplementTypes" />
+      <End Role="MsSupplement" EntitySet="MsSupplements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserID" Association="LocalDatabaseModel.FK_UserID">
+      <End Role="MsUser" EntitySet="MsUsers" />
+      <End Role="TransactionHeader" EntitySet="TransactionHeaders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionID" Association="LocalDatabaseModel.FK_TransactionID">
+      <End Role="TransactionHeader" EntitySet="TransactionHeaders" />
+      <End Role="TransactionDetail" EntitySet="TransactionDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="MsCart">
+    <Key>
+      <PropertyRef Name="CartID" />
+    </Key>
+    <Property Name="CartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="SupplementID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MsSupplement" Relationship="LocalDatabaseModel.FK_SupplementIDMsCart" FromRole="MsCart" ToRole="MsSupplement" />
+    <NavigationProperty Name="MsUser" Relationship="LocalDatabaseModel.FK_UserIDMsCart" FromRole="MsCart" ToRole="MsUser" />
+  </EntityType>
+  <EntityType Name="MsSupplement">
+    <Key>
+      <PropertyRef Name="SupplementID" />
+    </Key>
+    <Property Name="SupplementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupplementName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="SupplementExpiryDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="SupplementPrice" Type="Int32" Nullable="false" />
+    <Property Name="SupplementTypeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MsCarts" Relationship="LocalDatabaseModel.FK_SupplementIDMsCart" FromRole="MsSupplement" ToRole="MsCart" />
+    <NavigationProperty Name="TransactionDetails" Relationship="LocalDatabaseModel.FK_SupplementID" FromRole="MsSupplement" ToRole="TransactionDetail" />
+    <NavigationProperty Name="MsSupplementType" Relationship="LocalDatabaseModel.FK_SupplementTypeID" FromRole="MsSupplement" ToRole="MsSupplementType" />
+  </EntityType>
+  <EntityType Name="MsSupplementType">
+    <Key>
+      <PropertyRef Name="SupplementTypeID" />
+    </Key>
+    <Property Name="SupplementTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupplementTypeName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MsSupplements" Relationship="LocalDatabaseModel.FK_SupplementTypeID" FromRole="MsSupplementType" ToRole="MsSupplement" />
+  </EntityType>
+  <EntityType Name="MsUser">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserEmail" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserDOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="UserGender" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UserRole" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UserPassword" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MsCarts" Relationship="LocalDatabaseModel.FK_UserIDMsCart" FromRole="MsUser" ToRole="MsCart" />
+    <NavigationProperty Name="TransactionHeaders" Relationship="LocalDatabaseModel.FK_UserID" FromRole="MsUser" ToRole="TransactionHeader" />
+  </EntityType>
+  <EntityType Name="TransactionDetail">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+      <PropertyRef Name="SupplementID" />
+    </Key>
+    <Property Name="TransactionID" Type="Int32" Nullable="false" />
+    <Property Name="SupplementID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MsSupplement" Relationship="LocalDatabaseModel.FK_SupplementID" FromRole="TransactionDetail" ToRole="MsSupplement" />
+    <NavigationProperty Name="TransactionHeader" Relationship="LocalDatabaseModel.FK_TransactionID" FromRole="TransactionDetail" ToRole="TransactionHeader" />
+  </EntityType>
+  <EntityType Name="TransactionHeader">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MsUser" Relationship="LocalDatabaseModel.FK_UserID" FromRole="TransactionHeader" ToRole="MsUser" />
+    <NavigationProperty Name="TransactionDetails" Relationship="LocalDatabaseModel.FK_TransactionID" FromRole="TransactionHeader" ToRole="TransactionDetail" />
+  </EntityType>
+  <Association Name="FK_SupplementIDMsCart">
+    <End Type="LocalDatabaseModel.MsSupplement" Role="MsSupplement" Multiplicity="1" />
+    <End Type="LocalDatabaseModel.MsCart" Role="MsCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplement">
+        <PropertyRef Name="SupplementID" />
+      </Principal>
+      <Dependent Role="MsCart">
+        <PropertyRef Name="SupplementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserIDMsCart">
+    <End Type="LocalDatabaseModel.MsUser" Role="MsUser" Multiplicity="1" />
+    <End Type="LocalDatabaseModel.MsCart" Role="MsCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="MsCart">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SupplementID">
+    <End Type="LocalDatabaseModel.MsSupplement" Role="MsSupplement" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LocalDatabaseModel.TransactionDetail" Role="TransactionDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplement">
+        <PropertyRef Name="SupplementID" />
+      </Principal>
+      <Dependent Role="TransactionDetail">
+        <PropertyRef Name="SupplementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SupplementTypeID">
+    <End Type="LocalDatabaseModel.MsSupplementType" Role="MsSupplementType" Multiplicity="1" />
+    <End Type="LocalDatabaseModel.MsSupplement" Role="MsSupplement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplementType">
+        <PropertyRef Name="SupplementTypeID" />
+      </Principal>
+      <Dependent Role="MsSupplement">
+        <PropertyRef Name="SupplementTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserID">
+    <End Type="LocalDatabaseModel.MsUser" Role="MsUser" Multiplicity="1" />
+    <End Type="LocalDatabaseModel.TransactionHeader" Role="TransactionHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TransactionHeader">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionID">
+    <End Type="LocalDatabaseModel.TransactionHeader" Role="TransactionHeader" Multiplicity="1" />
+    <End Type="LocalDatabaseModel.TransactionDetail" Role="TransactionDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransactionHeader">
+        <PropertyRef Name="TransactionID" />
+      </Principal>
+      <Dependent Role="TransactionDetail">
+        <PropertyRef Name="TransactionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

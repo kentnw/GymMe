@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\profilepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\profilepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\profilepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\profilepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\master\\navigationbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\master\\navigationbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\master\\navigationbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\master\\navigationbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\managesupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\managesupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\updatesupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\updatesupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\insertsupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\insertsupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\view\\managesupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\managesupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\insertsupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\insertsupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\repository\\supplementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\repository\\supplementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|d:\\kent\\binus\\lab pattern software design\\final project\\final project\\controller\\supplementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\controller\\supplementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KENT_BINUS_LAB_PATTERN_SOFTWARE_DESIGN_FINAL_PROJECT_FINAL_PROJECT_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.MsSupplementType.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KENT_BINUS_LAB_PATTERN_SOFTWARE_DESIGN_FINAL_PROJECT_FINAL_PROJECT_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.MsSupplement.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\handler\\supplementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\handler\\supplementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\final project\\master\\navigationbar.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072F721D-8DE5-4C69-BC9F-04C8146EE347}|Final Project\\Final Project.csproj|solutionrelative:final project\\master\\navigationbar.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfilePage.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ProfilePage.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\ProfilePage.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ProfilePage.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\ProfilePage.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T08:12:33.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.aspx",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\RegisterPage.aspx",
+              "RelativeDocumentMoniker": "Final Project\\View\\RegisterPage.aspx",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\RegisterPage.aspx",
+              "RelativeToolTip": "Final Project\\View\\RegisterPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T08:10:22.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.aspx",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ProfilePage.aspx",
+              "RelativeDocumentMoniker": "Final Project\\View\\ProfilePage.aspx",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ProfilePage.aspx",
+              "RelativeToolTip": "Final Project\\View\\ProfilePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T08:10:13.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavigationBar.Master.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master.cs",
+              "RelativeDocumentMoniker": "Final Project\\Master\\NavigationBar.Master.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master.cs",
+              "RelativeToolTip": "Final Project\\Master\\NavigationBar.Master.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv1QAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:15:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavigationBar.Master",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master",
+              "RelativeDocumentMoniker": "Final Project\\Master\\NavigationBar.Master",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master",
+              "RelativeToolTip": "Final Project\\Master\\NavigationBar.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T08:52:58.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateSupplement.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\UpdateSupplement.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\UpdateSupplement.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\UpdateSupplement.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\UpdateSupplement.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T06:56:20.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageSupplement.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ManageSupplement.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\ManageSupplement.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ManageSupplement.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\ManageSupplement.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:57:16.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InsertSupplement.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\InsertSupplement.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\InsertSupplement.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\InsertSupplement.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\InsertSupplement.aspx.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:12:18.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageSupplement.aspx",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ManageSupplement.aspx",
+              "RelativeDocumentMoniker": "Final Project\\View\\ManageSupplement.aspx",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\ManageSupplement.aspx",
+              "RelativeToolTip": "Final Project\\View\\ManageSupplement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T07:24:46.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsertSupplement.aspx",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\InsertSupplement.aspx",
+              "RelativeDocumentMoniker": "Final Project\\View\\InsertSupplement.aspx",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\InsertSupplement.aspx",
+              "RelativeToolTip": "Final Project\\View\\InsertSupplement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-08T18:05:40.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SupplementRepository.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Repository\\SupplementRepository.cs",
+              "RelativeDocumentMoniker": "Final Project\\Repository\\SupplementRepository.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Repository\\SupplementRepository.cs",
+              "RelativeToolTip": "Final Project\\Repository\\SupplementRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA3wCYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:06:45.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupplementController.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Controller\\SupplementController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controller\\SupplementController.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Controller\\SupplementController.cs",
+              "RelativeToolTip": "Final Project\\Controller\\SupplementController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAQwDwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:27:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.MsSupplementType [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KENT_BINUS_LAB_PATTERN_SOFTWARE_DESIGN_FINAL_PROJECT_FINAL_PROJECT_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.MsSupplementType.sql",
+              "ToolTip": "dbo.MsSupplementType [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-09T07:23:04.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.MsSupplement [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KENT_BINUS_LAB_PATTERN_SOFTWARE_DESIGN_FINAL_PROJECT_FINAL_PROJECT_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.MsSupplement.sql",
+              "ToolTip": "dbo.MsSupplement [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-09T07:24:16.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\HomePage.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\HomePage.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\HomePage.aspx.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:42:42.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Factory\\UserFactory.cs",
+              "RelativeDocumentMoniker": "Final Project\\Factory\\UserFactory.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Factory\\UserFactory.cs",
+              "RelativeToolTip": "Final Project\\Factory\\UserFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:54:18.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Final Project\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Final Project\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:07:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SupplementHandler.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Handler\\SupplementHandler.cs",
+              "RelativeDocumentMoniker": "Final Project\\Handler\\SupplementHandler.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Handler\\SupplementHandler.cs",
+              "RelativeToolTip": "Final Project\\Handler\\SupplementHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:03:28.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\HomePage.aspx",
+              "RelativeDocumentMoniker": "Final Project\\View\\HomePage.aspx",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\HomePage.aspx",
+              "RelativeToolTip": "Final Project\\View\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-08T18:06:16.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\LoginPage.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\LoginPage.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\LoginPage.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\LoginPage.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:57:14.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controller\\UserController.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Controller\\UserController.cs",
+              "RelativeToolTip": "Final Project\\Controller\\UserController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwA0AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:07:39.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterPage.aspx.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\RegisterPage.aspx.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\RegisterPage.aspx.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\View\\RegisterPage.aspx.cs",
+              "RelativeToolTip": "Final Project\\View\\RegisterPage.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:29:28.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NavigationBar.Master.designer.cs",
+              "DocumentMoniker": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master.designer.cs",
+              "RelativeDocumentMoniker": "Final Project\\Master\\NavigationBar.Master.designer.cs",
+              "ToolTip": "D:\\KENT\\BINUS\\LAB Pattern Software Design\\Final Project\\Final Project\\Master\\NavigationBar.Master.designer.cs",
+              "RelativeToolTip": "Final Project\\Master\\NavigationBar.Master.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:11:47.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

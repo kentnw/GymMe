@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavigationBar.master.cs" Inherits="Final_Project.Master.NavigationBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        <div id="ListMemberDiv" runat="server">
+            <asp:Button ID="ButtonOrderSupplement" runat="server" Text="Order Supplement" OnClick="ButtonOrderSupplement_Click" />
+            <asp:Button ID="ButtonHistory" runat="server" Text="History" OnClick="ButtonHistory_Click" />
+            <asp:Button ID="ButtonProfile" runat="server" Text="Profile" OnClick="ButtonProfile_Click" />
+            <asp:Button ID="ButtonLogout" runat="server" Text="Logout" OnClick="ButtonLogout_Click" />
+
+        </div>
+        <div id="ListAdminDiv" runat="server">
+            <asp:Button ID="ButtonHome" runat="server" Text="Home" OnClick="ButtonHome_Click" />
+            <asp:Button ID="ButtonManageSupplement" runat="server" Text="Manage Supplement" OnClick="ButtonManageSupplement_Click" />
+            <asp:Button ID="ButtonOrderQueue" runat="server" Text="Order Queue" OnClick="ButtonOrderQueue_Click" />
+            <asp:Button ID="ButtonProfileAdmin" runat="server" Text="Profile" OnClick="ButtonProfileAdmin_Click" />
+            <asp:Button ID="ButtonTransactionReport" runat="server" Text="TransactionReport" OnClick="ButtonTransactionReport_Click" />
+            <asp:Button ID="ButtonLogoutAdmin" runat="server" Text="Logout" OnClick="ButtonLogoutAdmin_Click" />
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>
